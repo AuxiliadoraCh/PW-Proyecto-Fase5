@@ -1,0 +1,71 @@
+/* Contenedor principal */
+
+.holiday-main-container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Estilos del header */
+
+.holiday-header {
+  background: linear-gradient(90deg, rgba(200,0,0,1) 0%, rgba(121,9,21,1) 50%, rgba(200,0,0,1) 100%);
+  border-radius: 10px;
+  padding: 3rem;
+}
+
+.holiday-title {
+  font-family: 'Merriweather', serif;
+}
+
+.holiday-subtitle {
+  font-family: 'Segoe UI', sans-serif;
+  margin-bottom: 1.5rem;
+}
+
+.holiday-btn {
+  font-size: 1.1rem;
+  padding: 0.7rem 1.5rem;
+}
+
+/* Estilos de las tarjetas de recetas */
+
+.holiday-card {
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.holiday-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+.holiday-card-img {
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+  height: 200px;
+  object-fit: cover;
+}
+
+.holiday-card-title {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #d72638;
+}
+
+.holiday-card-text {
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+}
+
+.holiday-card-btn {
+  background-color: #d72638;
+  border: none;
+  transition: background-color 0.3s;
+}
+
+.holiday-card-btn:hover {
+  background-color: #a31b29;
+}
+
+.holiday-main-container {
+}
+

@@ -1,0 +1,44 @@
+.premium-section {
+  background-image: url("../../assets/img/freepik__upload__4632.jpeg?h=6bedec96de4f523f80c28bf9d4030ea7");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 60px 0;
+  text-align: center;
+  width: 90%;
+  margin: auto;
+}
+
+.premium-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.premium-section p {
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+}
+
+.btn-premium {
+  font-size: 1.2rem;
+  padding: 15px 30px;
+  background-color: #FF6F61;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  transition: all 0.3s ease;
+}
+
+.btn-premium:hover {
+  background-color: #FF5733;
+  transform: scale(1.1);
+}
+
+.btn-premium:focus {
+  outline: none;
+}
+
+.premium-section h2, .premium-section p {
+  text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+}
+

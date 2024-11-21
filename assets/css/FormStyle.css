@@ -1,0 +1,137 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+
+.form-div {
+  max-width: 800px;
+  margin: auto;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+}
+
+.form-div h2 {
+  color: #482917;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.recipe-form-label {
+  font-weight: bold;
+  margin-top: 15px;
+  display: block;
+  color: #482917;
+}
+
+.recipe-form-input, .recipe-form-textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.recipe-form-textarea {
+  resize: none;
+  height: 100px;
+}
+
+.recipe-form-section h3 {
+  color: #482917;
+  margin-top: 30px;
+}
+
+.recipe-form-button-add {
+  background-color: #482917;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 14px;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-top: 10px;
+  display: block;
+}
+
+.recipe-form-button-add:hover {
+  background-color: #5a3c27;
+}
+
+.recipe-form-button {
+  width: 100%;
+  padding: 15px;
+  background-color: #482917;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.recipe-form-button:hover {
+  background-color: #5a3c27;
+}
+
+/* Ingredient and step inputs */
+
+.recipe-form-ingredient, .recipe-form-step {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.recipe-form-step textarea {
+  grid-column: span 3;
+}
+
+/* File upload styling */
+
+input[type="file"] {
+  display: block;
+  margin-top: 10px;
+  padding: 5px;
+}
+
+/* Responsive design */
+
+@media (max-width: 768px) {
+  .form-div {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .recipe-form-ingredient, .recipe-form-step {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .recipe-form-button-add {
+    width: 100%;
+  }
+}
+
+.recipe-form-step {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.recipe-form-step input[type="file"] {
+  margin-top: 10px;
+}
+
+html {
+}
+

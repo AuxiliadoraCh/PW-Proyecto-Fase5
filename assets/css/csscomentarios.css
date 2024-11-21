@@ -1,0 +1,108 @@
+/* Estilos específicos para la sección de comentarios */
+
+.comment-section {
+  background-color: #FD7E14;
+  padding: 20px;
+  border-radius: 10px;
+  width: 100%;
+  margin: 0;
+}
+
+/* Tarjeta de Comentario */
+
+.comment-section .card {
+  background-color: #FFF9E6;
+  border: 2px solid #FFB84D;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 15px;
+}
+
+/* Encabezado de Comentario (Nombre y Fecha) */
+
+.comment-section .d-flex {
+  background-color: #FFB84D;
+  color: #FFFFFF;
+  padding: 15px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.comment-section .d-flex img {
+  border-radius: 50%;
+  border: 2px solid #FFF;
+  margin-right: 15px;
+  width: 72px;
+  height: 72px;
+}
+
+.comment-section h4 {
+  margin: 0;
+  font-size: 1.1em;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+.comment-section .font-monospace {
+  font-size: 0.9em;
+  color: #FFFFFF;
+  margin-left: 10px;
+}
+
+/* Contenido del Comentario */
+
+.comment-section .text-break {
+  color: #333333;
+  padding: 15px;
+  background-color: #FFF9E6;
+  border-radius: 8px;
+  margin-top: 5px;
+}
+
+/* Botón de Responder */
+
+.comment-section a[data-bs-toggle="collapse"] {
+  color: #FFD580;
+  font-size: 0.9em;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.comment-section a[data-bs-toggle="collapse"]:hover {
+  color: #FF8C00;
+}
+
+/* Caja de Respuesta Colapsable */
+
+.comment-section .collapse {
+  margin-top: 15px;
+  padding: 15px;
+  background-color: #FFF9E6;
+  border: 1px solid #FFB84D;
+  border-radius: 8px;
+}
+
+/* Botones de Formulario */
+
+.comment-section .btn-success {
+  background-color: #28a745;
+  border: none;
+  color: #FFFFFF;
+}
+
+.comment-section .btn-success:hover {
+  background-color: #218838;
+}
+
+.comment-section .btn-danger {
+  background-color: #dc3545;
+  border: none;
+  color: #FFFFFF;
+}
+
+.comment-section .btn-danger:hover {
+  background-color: #c82333;
+}
+

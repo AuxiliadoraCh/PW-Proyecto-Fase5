@@ -1,7 +1,3 @@
-.btn {
-  background-color: #fffffe;
-}
-
 form {
   gap: 20px;
 }
@@ -12,5 +8,17 @@ form {
 
 .col-12 {
   margin-top: 20px;
+}
+
+.btn-success {
+  background-color: forestgreen;
+}
+
+.btn-danger {
+  background-color: red;
+}
+
+.card-body.p-4 {
+  background-color: #fd7e14;
 }
 

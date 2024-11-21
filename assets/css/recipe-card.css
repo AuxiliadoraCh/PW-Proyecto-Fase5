@@ -1,0 +1,45 @@
+.recipe-card {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  margin-top: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.recipe-title {
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+}
+
+.recipe-meta {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.author-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.rating {
+  margin-left: auto;
+  font-size: 18px;
+  color: #FFD700;
+}
+
+.ingredients-list, .steps-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.recipe-tags {
+  margin-top: 15px;
+}
+
+.tag {
+  margin-right: 5px;
+}
+
